@@ -56,6 +56,7 @@ ggplot(data_long, aes(x = Value, y = Indicator, fill = Group)) +
   theme(axis.text.y = element_text(angle = 0), 
         axis.title.x = element_text(vjust = -0.5))  # Adjust x-axis title position
 ```
+![Alt text](https://github.com/FrankCoRa/Somalia_Insights_Project/blob/main/Breastfeed_Plot.png)
 - 7% of infants under 2 years consume fruits, likely those closer to the age of 2, while most infants understandably do not eat fruits due to their young age.
 - 46% of infants under 2 consume grains, and 61% are fed infant formula, likely to compensate for a lack of breast milk or maternal challenges.
 - 8% of infants have never been breastfed, a concerning statistic as maternal milk is crucial for infant survival and development.
@@ -97,6 +98,7 @@ ggplot(data_long, aes(x = Percentage, y = reorder(Indicator, Percentage), fill =
         plot.title = element_text(hjust = 0.5, face = "bold")) +
   guides(fill = guide_legend(reverse = TRUE))
 ```
+![Alt text](https://github.com/FrankCoRa/Somalia_Insights_Project/blob/main/Priority_Needs.png)
 Top Needs in IDP Communities:
 
 - Food Source: Identified by 70% of the population as the most urgent need.
@@ -147,6 +149,7 @@ ggplot(data_long, aes(x = Indicator, y = Percentage, fill = Group)) +
     panel.grid.major.y = element_blank()
   )
 ```
+![Alt text](https://github.com/FrankCoRa/Somalia_Insights_Project/blob/main/Education_barriers.png)
 Key Barriers to Education for Somalia IDPs:
 
 - Lack of Staff (19%): The most significant barrier impacting access to education.
@@ -205,6 +208,7 @@ ggplot(data_filtered, aes(x = "", y = Average, fill = Answer)) +
             size = 4, color = "darkgreen") +  # Add percentage labels
   scale_fill_brewer(palette = "Set3")
 ```
+![Alt text](https://github.com/FrankCoRa/Somalia_Insights_Project/blob/main/Health_Barriers.png)
 Impactful points for the health-related findings
 - 32.3% of respondents reported concern over insufficient qualified staff, highlighting a critical gap in healthcare provision.
 - 31.3% of respondents noted the absence of functional health facilities nearby, significantly limiting access to care.
@@ -252,6 +256,7 @@ ggplot(data_long, aes(x = Group, y = Question)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+![Alt text](https://github.com/FrankCoRa/Somalia_Insights_Project/blob/main/Water_access.png)
 Impactful points for the water access-related findings
 - 50% of the population reported no issues with accessing water, indicating a positive overall trend.
 - 30% of respondents highlighted that waterpoints are too far, presenting a significant accessibility concern.
@@ -259,3 +264,9 @@ Impactful points for the water access-related findings
 
 This issue of water cost should be further investigated to ensure equitable access for all internally displaced persons (IDPs).
 Overall, these results show improvement compared to previous findings, but specific areas still require attention.
+
+## Thank you!
+We hope that this Non-Profit Insight-Visualization Project proves valuable to you. The findings align with previous insights, offering a comprehensive look at the ongoing challenges faced by internally displaced persons (IDPs) in Somalia.
+Your feedback is highly appreciated, and if you’re interested in learning more about this NGO's cause or wish to support their efforts, please visit Somalia Humanitarian Aid at https://civil-protection-humanitarian-aid.ec.europa.eu/where/africa/somalia_en.
+
+Thank you for taking the time to review this project, and we look forward to any thoughts or suggestions you may have. Together, we can make a meaningful difference in humanitarian efforts.

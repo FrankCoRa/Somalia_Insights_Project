@@ -1,6 +1,9 @@
 # Somalia_Insights_Project
 Somalia IDP Insights: Data-Driven Visualizations and Analysis
-I Led a team to conduct data mining and visualization using the NGO’s consultancy database to analyze internal displacement patterns in Somalia for the period 2022-2023. Our goal was to uncover key insights that would inform humanitarian response strategies and policy-making. While we were unable to share the raw data due to confidentiality restrictions, I’m excited to present the most significant findings from our analysis, illustrated through visualizations created in R Studio by my team and me. These insights offer valuable perspectives on the challenges faced by internally displaced persons (IDPs) in Somalia.
+
+I Led a team to conduct data mining and visualization using the NGO’s consultancy database to analyze internal displacement patterns in Somalia for the period 2022-2023. 
+
+Our goal was to uncover key insights that would inform humanitarian response strategies and policy-making. While we were unable to share the raw data due to confidentiality restrictions, I’m excited to present the most significant findings from our analysis, illustrated through visualizations created in R Studio by my team and me. These insights offer valuable perspectives on the challenges faced by internally displaced persons (IDPs) in Somalia.
 ## Infant Breastfeed (R Studio)
 ```r
 # Required Libraries
